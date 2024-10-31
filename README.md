@@ -9,7 +9,7 @@ Guidelines for running each of the parameters & data simulations and CNN trainin
 # 1. Data simulation
 - `data_sim.R` : simulate Ising, potts, and the autologistic model
 - `data_sim.cpp` : C++ function to generate Ising, and autologistic model
-# 2. MC sample generation
+# 2. Model train
 - `data_sim.R` : simulate Ising, potts, and the autologistic model
-# 3. Model train
+# 3. MC sample generation
 - `data_sim.R` : simulate Ising, potts, and the autologistic model
