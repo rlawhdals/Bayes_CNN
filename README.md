@@ -7,6 +7,7 @@ Guidelines for running each of the parameters & data simulations and CNN trainin
 # 0. Package version
 
 # 1. Codes for parameters and dataset simulations
-
+- `data_sim.R` : simulate Ising, potts, and the autologistic model
+- 'data_sim.cpp' : C++ function to generate Ising, and autologistic model
 # 2. Codes for training Bayes CNN
 
