@@ -1,6 +1,7 @@
 # About
 
 This GitHub repository contains simulation studies and data analyses presented in the paper:
+
 Jong Hyeon Lee, Jongmin Kim, Heesang Lee, and Jaewoo Park (2025). **A Delayed Acceptance Auxiliary Variable MCMC for Spatial Models with Intractable Likelihood Functions.**
 
 Instructions for running the emulator and DA-AVM algorithms are provided in their respective directories.
