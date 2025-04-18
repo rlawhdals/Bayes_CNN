@@ -16,6 +16,8 @@ This analysis was conducted using the following environment:
 - **Key packages**:
   - `Rcpp` 0.0.0
   - `RcppArmadillo`0.0.0
+  - `ergm`0.0.0
+  - `potts`0.0.0
 
 # 1. First-Stage Kernel Construction
 
