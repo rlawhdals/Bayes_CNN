@@ -18,5 +18,5 @@ Instructions for running the emulator and DA-AVM algorithms are provided in thei
 # 2. DA-AVM Algorithms
 
 - `potts.R` : Simulates the Potts model and implements the DA-AVM algorithm.
-- `pp.R` : Implements DA-AVM for the RSV dataset.
-- `ergm.R` : Implements DA-AVM using the Faux Mesa high school network data.
+- `pp.R` : Implements DA-AVM in the point process example for the RSV dataset.
+- `ergm.R` : Implements DA-AVM in the ergm example using the Faux Mesa high school network data.
