@@ -1,15 +1,22 @@
 # About
 
-This GitHub repository includes some of the simulation studies and data analysis included in the paper: Jong Hyeon Lee, Jongmin Kim, Heesang Lee and Jaewoo Park. (2025). A Delayed Acceptance Auxiliary Variable MCMC for Spatial Models with Intractable Likelihood Function.
+This GitHub repository contains simulation studies and data analyses presented in the paper:  
+Jong Hyeon Lee, Jongmin Kim, Heesang Lee, and Jaewoo Park (2025).  
+**A Delayed Acceptance Auxiliary Variable MCMC for Spatial Models with Intractable Likelihood Functions.**
 
-Instructions for running the emulator and DA-AVM algorithms can be found in their respective directories.
+Instructions for running the emulator and DA-AVM algorithms are provided in their respective directories.
 
-# 0. Package version
+# 0. Package Versions
 
-# 1. Emulator
-- `data_sim.R` : simulate Ising, potts, and the autologistic model
-- `data_sim.cpp` : C++ function to generate Ising, and autologistic model
-# 2. DA-AVM
-- `potts.R` : simulate the Potts model and implement DA-AVM
-- `pp.R`: implement DA-AVM using the RSV dataset
-- `ergm.R` : implement DA-AVM using the Faux Mesa high school data
+(Write here if you’re listing versions of R, Rcpp, etc.)
+
+# 1. First-Stage Kernel Construction
+
+- `kernel.R` : Constructs the first-stage kernel using subsampling, function emulation, and a frequentist estimator.
+- `kernel.cpp` : C++ functions used to construct the kernels.
+
+# 2. DA-AVM Algorithms
+
+- `potts.R` : Simulates the Potts model and implements the DA-AVM algorithm.
+- `pp.R` : Implements DA-AVM in the point process example for the RSV dataset.
+- `ergm.R` : Implements DA-AVM in the ergm example using the Faux Mesa high school network data.
