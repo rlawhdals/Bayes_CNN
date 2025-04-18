@@ -6,9 +6,16 @@ Jong Hyeon Lee, Jongmin Kim, Heesang Lee, and Jaewoo Park (2025).
 
 Instructions for running the emulator and DA-AVM algorithms are provided in their respective directories.
 
-# 0. Package Versions
+# 0. Software Environment
 
-(Write here if you’re listing versions of R, Rcpp, etc.)
+This analysis was conducted using the following environment:
+
+- **R version**: 4.4.0 (2024-04-24)
+- **RStudio version**: 2023.12.1+402
+- **Operating System**: macOS Sonoma 15.3.2 (Apple Silicon)
+- **Key packages**:
+  - `Rcpp` 0.0.0
+  - `RcppArmadillo`0.0.0
 
 # 1. First-Stage Kernel Construction
 
