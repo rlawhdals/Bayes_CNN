@@ -21,11 +21,14 @@ This analysis was conducted using the following environment:
 
 # 1. Our Algorithms
 
-- `da_avm.cpp` : C++ functions for implementing our algorithms, including the construction of first-stage kernels.
+- `potts.cpp` : C++ functions for implementing our algorithms in the potts example, including the construction of first-stage kernels.
+- `pointprocess.cpp` : C++ functions for implementing our algorithms in the attraction-repulsion point process example, including the construction of first-stage kernels.
+- `ergm.cpp` : C++ functions for implementing our algorithms in the ergm example, including the construction of first-stage kernels.
 - `packages.R` : R script for loading the required packages.
 
 # 2. Applications with DA-AVM Algorithms
 
+- `rsvb2.txt` : RSV dataset
 - `potts.R`: Simulates the Potts model and applies the DA-AVM algorithm.
-- `pp.R`: Applies the DA-AVM algorithm to the point process example using the RSV dataset.
+- `pointprocess.R`: Applies the DA-AVM algorithm to the point process example using the RSV dataset.
 - `ergm.R`: Applies the DA-AVM algorithm to the ERGM example using the Faux Mesa high school network data.
