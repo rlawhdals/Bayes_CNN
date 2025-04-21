@@ -14,6 +14,7 @@ This analysis was conducted using the following environment:
 - **Key packages**:
   - `Rcpp` 1.0.13
   - `RcppArmadillo` 14.0.0.1
+  - `DiceKriging` 1.6.0
   - `potts` 0.5.11
   - `spatstat` 3.1.1
   - `ergm` 4.6.0
