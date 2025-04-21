@@ -14,10 +14,10 @@ This analysis was conducted using the following environment:
 - **RStudio version**: 2023.12.1+402
 - **Operating System**: macOS Sonoma 15.3.2 (Apple Silicon)
 - **Key packages**:
-  - `Rcpp` 0.0.0
-  - `RcppArmadillo`0.0.0
-  - `ergm`0.0.0
-  - `potts`0.0.0
+  - `Rcpp` 1.0.13
+  - `RcppArmadillo` 14.0.0.1
+  - `ergm` 4.6.0
+  - `potts` 0.5.11
 
 # 1. First-Stage Kernel Construction
 
