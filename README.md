@@ -21,8 +21,7 @@ This analysis was conducted using the following environment:
 
 # 1. First-Stage Kernel Construction
 
-- `kernel.R` : Constructs the first-stage kernel using subsampling, function emulation, and a frequentist estimator.
-- `kernel.cpp` : C++ functions used to construct the kernels.
+- `kernel.cpp` : C++ functions used to construct the kernels and our algorithms.
 
 # 2. DA-AVM Algorithms
 
