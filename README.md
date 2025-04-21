@@ -19,11 +19,11 @@ This analysis was conducted using the following environment:
   - `ergm` 4.6.0
   - `potts` 0.5.11
 
-# 1. First-Stage Kernel Construction
+# 1. First-Stage Kernel Construction and Our Algorithms
 
 - `kernel.cpp` : C++ functions used to construct the kernels and our algorithms.
 
-# 2. DA-AVM Algorithms
+# 2. Applications with DA-AVM Algorithms
 
 - `potts.R` : Simulates the Potts model and implements the DA-AVM algorithm.
 - `pp.R` : Implements DA-AVM in the point process example for the RSV dataset.
