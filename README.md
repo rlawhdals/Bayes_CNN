@@ -19,7 +19,7 @@ This analysis was conducted using the following environment:
   - `spatstat` 3.1.1
   - `ergm` 4.6.0
 
-# 1. Our Algorithms
+# 1. Algorithms
 
 - `potts.cpp` : C++ functions for implementing our algorithms in the potts example, including the construction of first-stage kernels.
 - `pointprocess.cpp` : C++ functions for implementing our algorithms in the attraction-repulsion point process example, including the construction of first-stage kernels.
