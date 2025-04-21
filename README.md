@@ -14,15 +14,17 @@ This analysis was conducted using the following environment:
 - **Key packages**:
   - `Rcpp` 1.0.13
   - `RcppArmadillo` 14.0.0.1
-  - `ergm` 4.6.0
   - `potts` 0.5.11
+  - `spatstat` 3.1.1
+  - `ergm` 4.6.0
 
 # 1. Our Algorithms
 
-- `da_avm.cpp` : C++ functions used to construct our algorithms including First-stage kernel constructions.
+- `da_avm.cpp` : C++ functions for implementing our algorithms, including the construction of first-stage kernels.
+- `packages.R` : R script for loading the required packages.
 
 # 2. Applications with DA-AVM Algorithms
 
-- `potts.R` : Simulates the Potts model and implements the DA-AVM algorithm.
-- `pp.R` : Implements DA-AVM in the point process example for the RSV dataset.
-- `ergm.R` : Implements DA-AVM in the ergm example using the Faux Mesa high school network data.
+- `potts.R`: Simulates the Potts model and applies the DA-AVM algorithm.
+- `pp.R`: Applies the DA-AVM algorithm to the point process example using the RSV dataset.
+- `ergm.R`: Applies the DA-AVM algorithm to the ERGM example using the Faux Mesa high school network data.
