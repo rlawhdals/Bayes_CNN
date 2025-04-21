@@ -17,9 +17,9 @@ This analysis was conducted using the following environment:
   - `ergm` 4.6.0
   - `potts` 0.5.11
 
-# 1. First-Stage Kernel Construction and Our Algorithms
+# 1. Our Algorithms
 
-- `kernel.cpp` : C++ functions used to construct the kernels and our algorithms.
+- `da_avm.cpp` : C++ functions used to construct our algorithms including First-stage kernel constructions.
 
 # 2. Applications with DA-AVM Algorithms
 
